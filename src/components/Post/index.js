@@ -1,5 +1,6 @@
 import { Button, Typography, Grid, makeStyles } from "@material-ui/core";
 import { useState } from "react";
+import firebase from "../../firebase";
 
 const useStyles = makeStyles(() => ({
   post: { marginBottom: "50px" },
@@ -30,7 +31,10 @@ const Post = (props) => {
   const [like, setLike] = useState(liked);
 
   const toggleLike = () => {
+    const dbRef = firebase.database().ref();
+    dbRef.child(title).set(!like);
     setLike(!like);
+    // dbRef().update({ title: !like });
   };
 
   return (
