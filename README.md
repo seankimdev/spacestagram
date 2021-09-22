@@ -4,7 +4,7 @@ Shopify: Front End Developer Intern Challenge - Winter 2022
 
 A webpage that pulls images from NASA API, displays them with info, and allow the user to "like" and "unlike" their favourite images.
 
-- [Live Site](https://sean-spacestagram.netlify.app/)
+- [Click Here for the Live Site](https://sean-spacestagram.netlify.app/)
 
 ## Tech Used
 
