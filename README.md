@@ -17,7 +17,7 @@ A webpage that pulls images from NASA API, displays them with info, and allow th
 
 - Modern, minimalist, and responsive design
 - Material UI used for simple layout and styling
-- Firebase database used for storing user's post list history
+- Firebase database used for storing user's post "like" history
 - Loading animation added to be displayed while waiting for API data fetch to complete.
 
 ## Acknowledgments
