@@ -16,6 +16,7 @@ import Post from "../Post";
 const useStyles = makeStyles(() => ({
   mainHeader: {
     marginTop: "20px",
+    fontWeight: "600",
   },
   creditText: {
     fontSize: "14px",

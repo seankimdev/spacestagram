@@ -2,7 +2,9 @@
 
 Shopify: Front End Developer Intern Challenge - Winter 2022
 
-- [Live Site](https://camping-checklist.netlify.app/)
+A webpage that pulls images from
+
+- [Live Site](https://sean-spacestagram.netlify.app/)
 
 ## Tech Used
 
@@ -16,10 +18,12 @@ Shopify: Front End Developer Intern Challenge - Winter 2022
 - Modern, minimalist, and responsive design
 - Material UI used for simple layout and styling
 - Firebase database used for storing user's post list history
+- Loading animation added to be displayed while waiting for API data fetch to complete.
 
 ## Acknowledgments
 
 - [NASA API: Astronomy Picture of the Day](https://api.nasa.gov/)
+- [loading.io: Loading Animation Styling](https://loading.io/css/)
 
 ## Setup Instructions
 

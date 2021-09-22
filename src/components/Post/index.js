@@ -10,7 +10,7 @@ const useStyles = makeStyles(() => ({
     borderRadius: "5px",
   },
   postTitle: {
-    fontWeight: "600",
+    fontWeight: "500",
   },
   postText: {
     fontSize: "14px",
