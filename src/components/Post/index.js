@@ -34,7 +34,6 @@ const Post = (props) => {
     const dbRef = firebase.database().ref();
     dbRef.child(title).set(!like);
     setLike(!like);
-    // dbRef().update({ title: !like });
   };
 
   return (
